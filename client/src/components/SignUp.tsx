@@ -12,7 +12,7 @@ export default function SignUp() {
 
             <div className="justify-center items-center">
               <div className="text-slate-500 font-semibold">
-                <p>Welcome back</p>
+                <p>Welcome</p>
                 <p>Get your things DUN</p>
               </div>
 
@@ -36,7 +36,7 @@ export default function SignUp() {
                 <p className=" font-semibold mt-1">
                   Don't have an account?
                   <span className="text-blue-500">
-                    <Link to="/SignUp">Log in</Link>
+                    <Link to="/signup">Log in</Link>
                   </span>
                 </p>
               </form>
