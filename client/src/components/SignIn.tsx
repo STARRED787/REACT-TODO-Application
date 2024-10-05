@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import signImage from "../images/sign-image.jpeg";
 
-export default function SignIn() {
+const SignIn = () => {
   return (
     <div className="flex h-screen bg-white container">
       {/* Left Side (Text) */}
@@ -51,4 +51,6 @@ export default function SignIn() {
       </div>
     </div>
   );
-}
+};
+
+export default SignIn;

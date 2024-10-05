@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import signImage from "../images/sign-up.jpg";
 
-export default function SignUp() {
+function SignUp() {
   return (
     <div>
       <div className="flex h-screen bg-white container">
@@ -35,14 +35,14 @@ export default function SignUp() {
 
                 <button
                   type="submit"
-                  className="rounded-[20px] w-[270px] md:w-[300px] mt-4 bg-green-300 text-black font-semibold py-2 px-4 hover:bg-blue-400 transition duration-300"
+                  className="rounded-[20px] w-[270px] md:w-[300px] mt-4 bg-green-300 text-black font-semibold py-2 px-4 hover:bg-green-400 transition duration-300"
                 >
                   Sign Up
                 </button>
                 <p className=" font-semibold mt-1">
                   You have an account?
                   <span className="text-blue-500">
-                    <Link to="/signin">Log in</Link>
+                    <Link to="/">Log in</Link>
                   </span>
                 </p>
               </form>
@@ -60,3 +60,5 @@ export default function SignUp() {
     </div>
   );
 }
+
+export default SignUp;

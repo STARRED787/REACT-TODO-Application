@@ -1,5 +1,7 @@
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
+import Home from "./components/Home";
+
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
@@ -14,7 +16,10 @@ function App() {
             {/* Route for the SignUp page */}
             <Route path="/signup" element={<SignUp />} />
 
-            {/* Redirect any undefined routes to SignIn */}
+            {/* Route for the Home page */}
+            <Route path="/home" element={<Home />} />
+
+            {/* Route for the NotFound page */}
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
