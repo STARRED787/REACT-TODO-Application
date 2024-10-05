@@ -4,7 +4,7 @@ import signImage from "../images/sign-up.jpg";
 function SignUp() {
   return (
     <div>
-      <div className="flex h-screen bg-white container">
+      <div className="flex h-screen bg-white ">
         {/* Left Side (Text) */}
         <div className="w-full mr-10 md:w-3/4 flex justify-center items-center">
           <div className="text-center text-black">
