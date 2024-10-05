@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import signImage from "../images/sign-image.jpeg";
 
 export default function SignIn() {
@@ -32,7 +33,9 @@ export default function SignIn() {
             </button>
             <p className=" font-semibold mt-1">
               Don't have an account?
-              <span className="text-blue-500">Log in</span>
+              <span className="text-blue-500">
+                <Link to="/login">Log in</Link>
+              </span>
             </p>
           </form>
         </div>
