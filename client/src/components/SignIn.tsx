@@ -35,7 +35,7 @@ export default function SignIn() {
               <p className=" font-semibold mt-1">
                 Don't have an account?
                 <span className="text-blue-500">
-                  <Link to="/signup">Log in</Link>
+                  <Link to="/signup">Sign Up</Link>
                 </span>
               </p>
             </form>
